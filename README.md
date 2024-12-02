@@ -2,7 +2,6 @@
 
 `data_prep.py` script creates points.txt and clusters.txt files for a given input image.
 
-`visualize_results.py` script writes an image for estimated centroids.
 
 ### Requirements
 - Python 3 (tested on version 3.8.2)
@@ -37,7 +36,7 @@ The example below creates `points.txt` file for a given image (`src_img`) and ge
 ```bash
 source venv/bin/activate
 
-python data_prep.py --src_img ./sample_images/image2.jpg --dst_folder ./input_data --k_init_centroids 10
+python data_prep.py --src_img ./sample_images --dst_folder_points ./Resources/Input/Points --dst_folder_clusters ./Resources/Input/Clusters --dst_img ./img_no_mapreduce --k_init_centroids 9
 ```
 
 The example below visualizes estimated clusters. `points.txt` file for a given image (`src_img`) and generates uniformly sampled initial centroids.
