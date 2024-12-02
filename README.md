@@ -38,12 +38,3 @@ source venv/bin/activate
 
 python data_prep.py --src_img ./sample_images --dst_folder_points ./Resources/Input/Points --dst_folder_clusters ./Resources/Input/Clusters --dst_img ./img_no_mapreduce --k_init_centroids 9
 ```
-
-The example below visualizes estimated clusters. `points.txt` file for a given image (`src_img`) and generates uniformly sampled initial centroids.
-
-
-```bash
-source venv/bin/activate
-
-python visualize_results.py --clusters_path ./input_data/clusters.txt --src_img ./sample_images/image2.jpg --dst_img ./tmp.jpg
-```
