@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+python data_prep.py --src_img ./sample_images --dst_folder_points ./input_data/no_mapreduce/Points --dst_folder_clusters ./input_data/no_mapreduce/Clusters --k_init_centroids 5
 
 # create directories on hdfs
 hadoop fs -mkdir -p /KMeans/Resources/Input
@@ -18,7 +19,7 @@ STATE_PATH=/KMeans/Resources/Input/clusters.txt
 NUMBER_OF_REDUCERS=3
 OUTPUT_DIR=/KMeans/Resources/Output
 DELTA=100000000.0
-MAX_ITERATIONS=10
+MAX_ITERATIONS=100
 DISTANCE=eucl
 
 hadoop jar ${JAR_PATH} ${MAIN_CLASS} --input ${INPUT_FILE_PATH} \

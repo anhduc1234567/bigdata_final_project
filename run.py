@@ -13,7 +13,7 @@ base_state_dir_hadoop = "/KMeans/Resources/Input/Clusters/"
 output_dir = "/KMeans/Resources/Output"  # Thư mục đầu ra
 number_of_reducers = "3"
 delta = "100000000.0"
-max_iterations = "10"
+max_iterations = "30"
 distance = "eucl"
 
 # Tạo danh sách file points và clusters tương ứng
