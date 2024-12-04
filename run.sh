@@ -31,7 +31,10 @@ hadoop jar ${JAR_PATH} ${MAIN_CLASS} --input ${INPUT_FILE_PATH} \
 --distance ${DISTANCE}
 
 # execute jar file
-LAST_DIR="$(hadoop fs -ls -t -C /KMeans/Resources/Output | head -1)"
-
 # print results
 hadoop fs -cat "$LAST_DIR/part-r-[0-9][0-9][0-9][0-9][0-9]" | sort --numeric --key 1
+LAST_DIR="$(hadoop fs -ls -t -C /KMeans/Resources/Output/ | head -1)"
+
+hadoop fs -cat "$LAST_DIR/part-r-[0-9][0-9][0-9][0-9][0-9]" | sort --numeric --key 1 | hdfs dfs -put - /KMeans/Resources/Output/points_0/1/clusters_0_out.txt
+
+hdfs dfs -get -f /KMeans/Resources/Output/points_0/1/clusters_0_out.txt ./Resources/Output/clusters_0.txt
