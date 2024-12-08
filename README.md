@@ -13,6 +13,7 @@ python data_prep.py --src_img ./sample_images --dst_folder_points ./Resources/In
 - Python 3 (tested on version 3.8.2)
 - numpy (tested on version 1.19.2)
 - opencv (tested on version 4.4.0.42)
+- Chạy môi trường Hadoop
 
 ### Installation
 
