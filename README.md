@@ -35,3 +35,23 @@ python run.py
 python visualize_results.py --src_img ./sample_images --dst_folder_clusters ./Resources/Output --dst_img ./img_after_mapreduce
 
 ```
+## Hình ảnh ban đầu
+<div style="display: flex; justify-content: center; gap: 10px;">
+<img src="https://github.com/anhduc1234567/bigdata_final_project/blob/main/sample_images/image4.png" alt="Hình minh họa" width="200"/>
+<img src="https://github.com/anhduc1234567/bigdata_final_project/blob/main/sample_images/image5.png" alt="Hình minh họa" width="300"/>
+<img src="https://github.com/anhduc1234567/bigdata_final_project/blob/main/sample_images/image3.jpg" alt="Hình minh họa" width="300"/>
+</div>
+
+## Hình ảnh trước khi chạy KMeans MapReduce
+<div style="display: flex; justify-content: center; gap: 10px;">
+<img src="https://github.com/anhduc1234567/bigdata_final_project/blob/main/img_no_mapreduce/tem_img1.png" alt="Hình minh họa" width="200"/>
+<img src="https://github.com/anhduc1234567/bigdata_final_project/blob/main/img_no_mapreduce/tem_img0.png" alt="Hình minh họa" width="300"/>
+<img src="https://github.com/anhduc1234567/bigdata_final_project/blob/main/img_no_mapreduce/tem_img3.png" alt="Hình minh họa" width="300"/>
+</div>
+
+## Sau khi KMeans Mapreduce
+<div style="display: flex; justify-content: center; gap: 10px;">
+<img src="https://github.com/anhduc1234567/bigdata_final_project/blob/main/img_after_mapreduce/img_after1.png" alt="Hình minh họa" width="200"/>
+<img src="https://github.com/anhduc1234567/bigdata_final_project/blob/main/img_after_mapreduce/img_after0.png" alt="Hình minh họa" width="300"/>
+<img src="https://github.com/anhduc1234567/bigdata_final_project/blob/main/img_after_mapreduce/img_after3.png" alt="Hình minh họa" width="300"/>
+</div>
