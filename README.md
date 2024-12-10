@@ -23,22 +23,22 @@ python data_prep.py --src_img ./sample_images --dst_folder_points ./Resources/In
 - opencv (tested on version 4.4.0.42)
 - Chạy môi trường Hadoop
 
-### Installation
+## Installation
 
-## Setup virtualenv
+### Setup virtualenv
 ```bash
 virtualenv venv -p python3
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-.
 
-## Chạy Kmeans MapReduce:
+
+### Chạy Kmeans MapReduce:
 ```
 python run.py
 ```
 
-## Chạy hiển thị hình ảnh cuối cùng:
+### Chạy hiển thị hình ảnh cuối cùng:
 ```
 python visualize_results.py --src_img ./sample_images --dst_folder_clusters ./Resources/Output --dst_img ./img_after_mapreduce
 
