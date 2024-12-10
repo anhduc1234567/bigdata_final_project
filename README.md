@@ -5,8 +5,8 @@
     3. Nguyễn Trọng Huy - 22022545
     4. Nguyễn Đức Anh - 22022661
     5. Hà Kim Dương - 22022621
-## [Link Báo cáo:](https://github.com/anhduc1234567/bigdata_final_project/blob/main/slices_report_bigdata.pdf)
-## [Link Slides:](https://github.com/anhduc1234567/bigdata_final_project/blob/main/slices_report_bigdata.pdf)
+## [Link Báo cáo](https://github.com/anhduc1234567/bigdata_final_project/blob/main/slices_report_bigdata.pdf)
+## [Link Slides](https://github.com/anhduc1234567/bigdata_final_project/blob/main/slices_report_bigdata.pdf)
 ## Chuẩn bị dữ liệu
 `data_prep.py` chuẩn bị dữ liệu tạo file `clusters.txt` và `points.txt` cho từng ảnh.
 ```
