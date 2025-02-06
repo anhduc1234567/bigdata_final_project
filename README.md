@@ -1,9 +1,10 @@
 # K-Means MapReduce trong phân cụm ảnh
 ## Thành viên nhóm:
-    1. Vũ Việt Hùng - 22022585
-    2. Hồ Minh Hoàng - 22022567
-    3. Nguyễn Trọng Huy - 22022545
-    4. Nguyễn Đức Anh - 22022661
+    1. Nguyễn Đức Anh - 22022661
+    2. Vũ Việt Hùng - 22022585
+    3. Hồ Minh Hoàng - 22022567
+    4. Nguyễn Trọng Huy - 22022545
+   
     5. Hà Kim Dương - 22022621
 ## [Link Báo cáo](https://github.com/anhduc1234567/bigdata_final_project/blob/main/slices_report_bigdata.pdf)
 ## [Link Slides](https://github.com/anhduc1234567/bigdata_final_project/blob/main/slices_report_bigdata.pdf)
